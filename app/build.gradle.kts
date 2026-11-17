@@ -3,9 +3,9 @@ plugins {
 }
 
 android {
-    namespace = "com.tchnischools.myapplication"
+    namespace = "com.technischools.myapplication"
     compileSdk {
-        version = release(36) {
+        version = release(37) {
             minorApiLevel = 1
         }
     }
@@ -13,6 +13,7 @@ android {
     defaultConfig {
         applicationId = "com.tchnischools.myapplication"
         minSdk = 35
+        //noinspection OldTargetApi
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"

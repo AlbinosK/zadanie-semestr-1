@@ -1,4 +1,4 @@
-package com.tchnischools.myapplication
+package com.technischools.myapplication
 
 import org.junit.Test
 
